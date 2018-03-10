@@ -1,4 +1,4 @@
-update=10-03-2018 1:07:26 PM
+update=10-03-2018 2:50:03 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -141,5 +141,5 @@ LibName99=Xicor
 LibName100=xilinx
 LibName101=zetex
 LibName102=Zilog
-LibName103=LFOExpController_SMT-rescue
-LibName104=LFOExpController_SMT-cache
+LibName103=LFOExpController_SMT-cache
+LibName104=LFOExpController_SMT-rescue
