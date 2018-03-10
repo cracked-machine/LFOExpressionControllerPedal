@@ -5,4 +5,5 @@
   (lib (name TRS635mmJack)(type KiCad)(uri "$(KIPRJMOD)/lib/TRS635mmJack.pretty")(options "")(descr ""))
   (lib (name TS635mmJack)(type KiCad)(uri "$(KIPRJMOD)/lib/TS635mmJack.pretty")(options "")(descr ""))
   (lib (name C&K_8_6mm_SPDT_ONON)(type KiCad)(uri "$(KIPRJMOD)/lib/C&K_8_6mm_SPDT_ONON.pretty")(options "")(descr ""))
+  (lib (name NetTie-II_SMD_FakeConnected)(type KiCad)(uri "$(KIPRJMOD)/lib/NetTie-II_SMD_FakeConnected.pretty")(options "")(descr "Standard NetTie_II_SMD with graphic line on top copper layer"))
 )
