@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="BOMFormatter.xsl"?>
 <export version="D">
   <design>
-    <source>H:\Workspace\ElectronicsProjects\EffectsPedals\LFO\LFOExpressionControllerPedal_R2\Hardware\SMT\LFOExpController_SMT.sch</source>
-    <date>10-03-2018 6:59:22 PM</date>
+    <source>H:/Workspace/ElectronicsProjects/EffectsPedals/LFO/LFOExpressionControllerPedal_R2/Hardware/SMT/LFOExpController_SMT.sch</source>
+    <date>11-03-2018 12:16:39 AM</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -697,38 +698,38 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="regul">
-      <uri>H:\Programs\KiCad\share\kicad\library\regul.lib</uri>
-    </library>
-    <library logical="_atmega168a-au">
-      <uri>lib\_atmega168a-au.lib</uri>
-    </library>
-    <library logical="_4051">
-      <uri>lib\_4051.lib</uri>
-    </library>
-    <library logical="_barrel_jack">
-      <uri>lib\_barrel_jack.lib</uri>
-    </library>
-    <library logical="_d_schottky">
-      <uri>lib\_d_schottky.lib</uri>
-    </library>
-    <library logical="_conn_01x08">
-      <uri>lib\_conn_01x08.lib</uri>
-    </library>
-    <library logical="_mcp41050">
-      <uri>lib\_mcp41050.lib</uri>
-    </library>
     <library logical="conn">
       <uri>H:\Programs\KiCad\share\kicad\library\conn.lib</uri>
-    </library>
-    <library logical="LFOExpController_SMT-cache">
-      <uri>LFOExpController_SMT-cache.lib</uri>
     </library>
     <library logical="device">
       <uri>H:\Programs\KiCad\share\kicad\library\device.lib</uri>
     </library>
+    <library logical="_conn_01x08">
+      <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\LFO\LFOExpressionControllerPedal_R2\Hardware\SMT\lib\_conn_01x08.lib</uri>
+    </library>
+    <library logical="_barrel_jack">
+      <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\LFO\LFOExpressionControllerPedal_R2\Hardware\SMT\lib\_barrel_jack.lib</uri>
+    </library>
+    <library logical="_4051">
+      <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\LFO\LFOExpressionControllerPedal_R2\Hardware\SMT\lib\_4051.lib</uri>
+    </library>
+    <library logical="_mcp41050">
+      <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\LFO\LFOExpressionControllerPedal_R2\Hardware\SMT\lib\_mcp41050.lib</uri>
+    </library>
+    <library logical="_atmega168a-au">
+      <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\LFO\LFOExpressionControllerPedal_R2\Hardware\SMT\lib\_atmega168a-au.lib</uri>
+    </library>
+    <library logical="_d_schottky">
+      <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\LFO\LFOExpressionControllerPedal_R2\Hardware\SMT\lib\_d_schottky.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>H:\Programs\KiCad\share\kicad\library\regul.lib</uri>
+    </library>
     <library logical="switches">
       <uri>H:\Programs\KiCad\share\kicad\library\switches.lib</uri>
+    </library>
+    <library logical="LFOExpController_SMT-cache">
+      <uri>H:\Workspace\ElectronicsProjects\EffectsPedals\LFO\LFOExpressionControllerPedal_R2\Hardware\SMT\LFOExpController_SMT-cache.lib</uri>
     </library>
   </libraries>
   <nets>
