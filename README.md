@@ -13,3 +13,5 @@ Documentation:
   <li><a href="Hardware/SMT/documentation/LFOExpController_SMT-TOPbrd.svg">Board Layout (TOP)</a></li>
   <li><a href="Hardware/SMT/documentation/LFOExpController_SMT-BOTTOMbrd.svg">Board Layout (BOTTOM)</a></li>
 </ul>
+
+Full respository can be found at <a href="https://github.com/cracked-machine/LFOExpressionControllerPedal">github.com/cracked-machine/LFOExpressionControllerPedal</a>
