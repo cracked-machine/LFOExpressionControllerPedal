@@ -9,7 +9,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <h2><xsl:value-of select="@value" /></h2>
     </xsl:for-each>
       <table border="1">
-        <tr>
+        <tr bgcolor="red">
             <th>Part</th>
             <th>ID</th>
             <th>Value</th>
