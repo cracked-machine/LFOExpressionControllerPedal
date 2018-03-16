@@ -8,7 +8,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:sort select="@number" order="descending"/>
         <h2><xsl:value-of select="@value" /></h2>
     </xsl:for-each>
-      <table border="1">
+      <table border="0">
         <tr>
             <th>Part</th>
             <th>ID</th>
