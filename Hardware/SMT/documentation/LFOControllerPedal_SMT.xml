@@ -13,7 +13,7 @@
         <date/>
         <source>LFOControllerPedal_SMT.sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value="Ouput is aliased using 12bit DAC and amplified to 5VDC using MCP601 opamp"/>
+        <comment number="2" value="Ouput is binary encoded and transmitted via SPI to MCP41050 digital potentiometer"/>
         <comment number="3" value="Uses ATMEGA328P MCU to generate WaveForms"/>
         <comment number="4" value="LFO Controller Pedal"/>
       </title_block>
