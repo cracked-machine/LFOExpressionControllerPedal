@@ -55,6 +55,7 @@ void PCI_Setup() {
 
 void PCI_SetMUX() {
   switch(DSP_Waveform) {
+        
         case SINE:
             // A0 = LLL
             digitalWrite(PCI_MUXPIN2, LOW);
@@ -62,7 +63,7 @@ void PCI_SetMUX() {
             digitalWrite(PCI_MUXPIN0, LOW);
           
           break;
-        case SQUARE:
+        case TRIANGLE:
             // A1 = LLH
             digitalWrite(PCI_MUXPIN2, LOW);
             digitalWrite(PCI_MUXPIN1, LOW);
@@ -74,25 +75,28 @@ void PCI_SetMUX() {
             digitalWrite(PCI_MUXPIN1, HIGH);
             digitalWrite(PCI_MUXPIN0, LOW);
           break;
-        case RAMPDOWN:
+        case STEP4:
             //A3 = LHH
             digitalWrite(PCI_MUXPIN2, LOW);
             digitalWrite(PCI_MUXPIN1, HIGH);
             digitalWrite(PCI_MUXPIN0, HIGH);
           break;
-        case TRIANGLE:
+          
+        case SQUARE:
             //A4 = HLL
             digitalWrite(PCI_MUXPIN2, HIGH);
             digitalWrite(PCI_MUXPIN1, LOW);
             digitalWrite(PCI_MUXPIN0, LOW);
           break;
-        case STEP8:
+         
+        case PULSE:
             //A5 = HLH
             digitalWrite(PCI_MUXPIN2, HIGH);
             digitalWrite(PCI_MUXPIN1, LOW);
             digitalWrite(PCI_MUXPIN0, HIGH);
           break;
-        case STEP4:
+         
+        /*case STEP4:
             //A6 = HHL
             digitalWrite(PCI_MUXPIN2, HIGH);
             digitalWrite(PCI_MUXPIN1, HIGH);
@@ -104,6 +108,7 @@ void PCI_SetMUX() {
             digitalWrite(PCI_MUXPIN1, HIGH);
             digitalWrite(PCI_MUXPIN0, HIGH);
           break;
+          */
       }
 
   

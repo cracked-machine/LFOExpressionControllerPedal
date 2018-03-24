@@ -110,14 +110,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "LFO Expression Controller Pedal"
+Date "2018-03-24"
+Rev "3"
 Comp ""
 Comment1 ""
-Comment2 "Ouput is aliased using 12bit DAC and amplified to 5VDC using MCP601 opamp"
-Comment3 "Uses ATMEGA328P MCU to generate WaveForms"
-Comment4 "LFO Controller Pedal"
+Comment2 "Design by Chris Sutton"
+Comment3 "https://github.com/cracked-machine/LFOExpressionControllerPedal"
+Comment4 "Uses ATMEGA328P MCU to control digital potentiometer"
 $EndDescr
 $Comp
 L Crystal Y_AVRCLK1
@@ -340,17 +340,6 @@ F 3 "" H 8025 1425 50  0001 C CNN
 	1    8025 1425
 	0    -1   -1   0   
 $EndComp
-$Comp
-L R R_WLEDB1
-U 1 1 5A9EB170
-P 8025 1850
-F 0 "R_WLEDB1" V 8105 1850 50  0000 C CNN
-F 1 "1K" V 8025 1850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7955 1850 50  0001 C CNN
-F 3 "" H 8025 1850 50  0001 C CNN
-	1    8025 1850
-	-1   0    0    1   
-$EndComp
 Text Label 8025 2375 1    50   ~ 0
 AUXGND
 Text Label 8025 750  3    50   ~ 0
@@ -395,7 +384,7 @@ L R R_EN1
 U 1 1 5AA05E1F
 P 5450 1150
 F 0 "R_EN1" V 5530 1150 50  0000 C CNN
-F 1 "R" V 5450 1150 50  0000 C CNN
+F 1 "1K" V 5450 1150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5380 1150 50  0001 C CNN
 F 3 "" H 5450 1150 50  0001 C CNN
 	1    5450 1150
@@ -441,17 +430,6 @@ F 3 "" H 8550 1425 50  0001 C CNN
 	1    8550 1425
 	0    -1   -1   0   
 $EndComp
-$Comp
-L R R_WLEDB2
-U 1 1 5AA1B322
-P 8550 1850
-F 0 "R_WLEDB2" V 8630 1850 50  0000 C CNN
-F 1 "1K" V 8550 1850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8480 1850 50  0001 C CNN
-F 3 "" H 8550 1850 50  0001 C CNN
-	1    8550 1850
-	-1   0    0    1   
-$EndComp
 Text Label 8550 2375 1    50   ~ 0
 AUXGND
 Text Label 8550 750  3    50   ~ 0
@@ -479,17 +457,6 @@ F 2 "LEDs:LED_0805_HandSoldering" H 9075 1450 50  0001 C CNN
 F 3 "" H 9075 1450 50  0001 C CNN
 	1    9075 1450
 	0    -1   -1   0   
-$EndComp
-$Comp
-L R R_WLEDB3
-U 1 1 5AA1B982
-P 9075 1875
-F 0 "R_WLEDB3" V 9155 1875 50  0000 C CNN
-F 1 "1K" V 9075 1875 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9005 1875 50  0001 C CNN
-F 3 "" H 9075 1875 50  0001 C CNN
-	1    9075 1875
-	-1   0    0    1   
 $EndComp
 Text Label 9075 2375 1    50   ~ 0
 AUXGND
@@ -519,17 +486,6 @@ F 3 "" H 9625 1450 50  0001 C CNN
 	1    9625 1450
 	0    -1   -1   0   
 $EndComp
-$Comp
-L R R_WLEDB4
-U 1 1 5AA1BA9B
-P 9625 1875
-F 0 "R_WLEDB4" V 9705 1875 50  0000 C CNN
-F 1 "1K" V 9625 1875 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9555 1875 50  0001 C CNN
-F 3 "" H 9625 1875 50  0001 C CNN
-	1    9625 1875
-	-1   0    0    1   
-$EndComp
 Text Label 9625 2375 1    50   ~ 0
 AUXGND
 Text Label 9625 750  3    50   ~ 0
@@ -558,17 +514,6 @@ F 3 "" H 10175 1425 50  0001 C CNN
 	1    10175 1425
 	0    -1   -1   0   
 $EndComp
-$Comp
-L R R_WLEDB5
-U 1 1 5AA1BBB4
-P 10175 1850
-F 0 "R_WLEDB5" V 10255 1850 50  0000 C CNN
-F 1 "1K" V 10175 1850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 10105 1850 50  0001 C CNN
-F 3 "" H 10175 1850 50  0001 C CNN
-	1    10175 1850
-	-1   0    0    1   
-$EndComp
 Text Label 10175 2350 1    50   ~ 0
 AUXGND
 Text Label 10175 750  3    50   ~ 0
@@ -596,17 +541,6 @@ F 2 "LEDs:LED_0805_HandSoldering" H 10725 1450 50  0001 C CNN
 F 3 "" H 10725 1450 50  0001 C CNN
 	1    10725 1450
 	0    -1   -1   0   
-$EndComp
-$Comp
-L R R_WLEDB6
-U 1 1 5AA1BCF1
-P 10725 1875
-F 0 "R_WLEDB6" V 10805 1875 50  0000 C CNN
-F 1 "1K" V 10725 1875 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 10655 1875 50  0001 C CNN
-F 3 "" H 10725 1875 50  0001 C CNN
-	1    10725 1875
-	-1   0    0    1   
 $EndComp
 Text Label 10725 2375 1    50   ~ 0
 AUXGND
@@ -746,8 +680,6 @@ Wire Wire Line
 Connection ~ 2125 2150
 Connection ~ 2125 1225
 Wire Wire Line
-	5625 6975 5750 6975
-Wire Wire Line
 	7250 5350 6825 5350
 Wire Wire Line
 	7250 5450 6825 5450
@@ -774,11 +706,9 @@ Wire Wire Line
 Wire Wire Line
 	8025 750  8025 1275
 Wire Wire Line
-	8025 1575 8025 1700
+	8025 1575 8025 2375
 Wire Wire Line
-	8025 2000 8025 2375
-Wire Wire Line
-	7600 3250 6175 3250
+	6175 3250 7600 3250
 Wire Wire Line
 	1050 3375 1275 3375
 Connection ~ 1050 3375
@@ -815,9 +745,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 750  8550 1275
 Wire Wire Line
-	8550 1575 8550 1700
-Wire Wire Line
-	8550 2000 8550 2375
+	8550 1575 8550 2375
 Wire Wire Line
 	8825 1200 8825 1150
 Wire Wire Line
@@ -828,9 +756,7 @@ Wire Wire Line
 Wire Wire Line
 	9075 750  9075 1300
 Wire Wire Line
-	9075 1600 9075 1725
-Wire Wire Line
-	9075 2025 9075 2375
+	9075 1600 9075 2375
 Wire Wire Line
 	9350 1200 9350 1150
 Wire Wire Line
@@ -841,9 +767,7 @@ Wire Wire Line
 Wire Wire Line
 	9625 750  9625 1300
 Wire Wire Line
-	9625 1600 9625 1725
-Wire Wire Line
-	9625 2025 9625 2375
+	9625 1600 9625 2375
 Wire Wire Line
 	9900 1200 9900 1150
 Wire Wire Line
@@ -854,9 +778,7 @@ Wire Wire Line
 Wire Wire Line
 	10175 750  10175 1275
 Wire Wire Line
-	10175 1575 10175 1700
-Wire Wire Line
-	10175 2000 10175 2350
+	10175 1575 10175 2350
 Wire Wire Line
 	10450 1200 10450 1150
 Wire Wire Line
@@ -867,9 +789,7 @@ Wire Wire Line
 Wire Wire Line
 	10725 750  10725 1300
 Wire Wire Line
-	10725 1600 10725 1725
-Wire Wire Line
-	10725 2025 10725 2375
+	10725 1600 10725 2375
 Wire Wire Line
 	11000 1200 11000 1150
 Wire Wire Line
@@ -987,10 +907,6 @@ F 3 "" H 5225 6675 50  0001 C CNN
 	1    5225 6675
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5225 6525 5225 6425
-Wire Wire Line
-	5225 6425 4950 6425
 Connection ~ 4950 6425
 Wire Wire Line
 	5225 6825 5225 6975
@@ -1179,4 +1095,15 @@ F 3 "" H 7600 5550 50  0001 C CNN
 	1    7600 5550
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	7475 3250 7475 2900
+Connection ~ 7475 3250
+Text Label 7475 2900 3    50   ~ 0
+AGND
+Wire Wire Line
+	5625 6975 5750 6975
+Wire Wire Line
+	4950 6425 5225 6425
+Wire Wire Line
+	5225 6425 5225 6525
 $EndSCHEMATC

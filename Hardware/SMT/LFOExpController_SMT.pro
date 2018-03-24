@@ -1,4 +1,4 @@
-update=10-03-2018 4:47:33 PM
+update=24-03-2018 3:45:28 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=50
 [eeschema]
 version=1
 LibDir=lib
@@ -145,3 +135,13 @@ LibName103=zetex
 LibName104=Zilog
 LibName105=LFOExpController_SMT-rescue
 LibName106=LFOExpController_SMT-cache
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=documentation/R2/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=50
