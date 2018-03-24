@@ -3,7 +3,7 @@
   (general
     (links 130)
     (no_connects 0)
-    (area 93.498599 52.375999 155.904001 137.870001)
+    (area 91.7461 49.608428 174.9791 152.84)
     (thickness 1.6)
     (drawings 31)
     (tracks 426)
@@ -98,7 +98,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory LFOEXP_GERBERS/))
+      (outputdirectory documentation/R2/))
   )
 
   (net 0 "")
