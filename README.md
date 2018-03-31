@@ -16,4 +16,4 @@ Documentation:
 
 
 <a href="https://github.com/cracked-machine/LFOExpressionControllerPedal">Github</a>|
-<a href="https://cracked-machine.github.io/LFOExpressionControllerPedal/">Web</a>
+<a href="https://cracked-machine.github.io/LFOExpressionControllerPedal/">Pages</a>
